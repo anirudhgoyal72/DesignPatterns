@@ -1,5 +1,8 @@
 package PrototypeAndRegistry;
 
+enum Inter{
+    Asd,Ass;
+}
 public class Client {
     public static void main(String[] args) {
         Registry registry=new Registry();
@@ -10,6 +13,9 @@ public class Client {
         Student student1=registry.getStudent(student).clone();
         student1.setYoe(2);student1.setAge(23);student1.setName("Anirudh");student1.setGradYear(2022);
         System.out.println(student1);
+
+
+
 
     }
 
