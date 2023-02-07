@@ -1,8 +1,6 @@
 package PrototypeAndRegistry;
 
-enum Inter{
-    Asd,Ass;
-}
+
 public class Client {
     public static void main(String[] args) {
         Registry registry=new Registry();
