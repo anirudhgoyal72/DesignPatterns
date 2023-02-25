@@ -11,7 +11,7 @@ public class DbConnection
     {
         if(dbConnectionObject==null)
         {
-            synchronized (DbConnection.class)//or synchronised(this) when using non static methods
+            synchronized (dbConnectionObject)//or synchronised(this) when using non static methods
             {
                 if(dbConnectionObject==null)
                 {
